@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.content h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.content .result {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.content .text {
+    padding: 10px;
+    width: 480px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.convbtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn .celbtn {
+    background-color: aqua;
+    color: black;
+    margin-right: 5px;
+}
+
+.btn .fehbtn {
+    background-color: aqua;
+    color: black;
+    margin-left: 5px;
+}
+
+.celbtn:hover {
+    background-color: white;
+}
+
+.fehbtn:hover {
+    background-color: white;
+}
+
+.kevbtn {
+    display: flex;
+    color: black;
+    justify-content: space-evenly;
+}
+
+.kevCbtn {
+    background-color: aqua;
+    color: black;
+    margin-right: 4px;
+}
+
+.kevFbtn {
+    background-color: aqua;
+    color: black;
+    margin-left: 4px;
+}
+
+.kevCbtn:hover {
+    background-color: white;
+}
+
+.kevFbtn:hover {
+    background-color: white;
+}
